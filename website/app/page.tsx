@@ -257,10 +257,11 @@ export default function Home() {
 )}
           </div>
         </div>
+        )}
+          </div>
         </div>
-              </section>
-
-      {/* Recent Projects Section */}
+          </section>
+ {/* Recent Projects Section */}
       <section id="projects" className="py-20 px-6 bg-black">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
