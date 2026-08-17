@@ -107,7 +107,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-transparent text-white">
       {/* Sticky Navigation */}
       <nav
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
