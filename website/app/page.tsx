@@ -254,10 +254,12 @@ export default function Home() {
   />
 ) : (
   service.icon
-))}
+)}
           </div>
         </div>
-      </section>
+      ))}
+          </div>
+              </section>
 
       {/* Recent Projects Section */}
       <section id="projects" className="py-20 px-6 bg-black">
