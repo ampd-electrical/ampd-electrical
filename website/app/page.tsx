@@ -65,22 +65,22 @@ export default function Home() {
   const features = [
     {
       title: 'Licensed C-10 Contractor',
-      icon: '📋',
+      icon: '',
       description: 'California state licensed and fully insured.',
     },
     {
       title: 'Quality Workmanship',
-      icon: '✨',
+      icon: '',
       description: 'Meticulous attention to detail on every project.',
     },
     {
       title: 'Honest Communication',
-      icon: '💬',
+      icon: '',
       description: 'Transparent pricing and clear explanations.',
     },
     {
       title: 'Fast Response Times',
-      icon: '⚡',
+      icon: '',
       description: 'Quick turnaround when you need us most.',
     },
   ];
