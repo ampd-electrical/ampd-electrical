@@ -26,6 +26,7 @@ export default function Home() {
       title: 'EV Charger Installation',
       description: 'Professional installation of home and commercial EV charging stations.',
       icon: '🔌',
+      image: '/charger picture.png',
     },
     {
       title: 'Residential Electrical',
@@ -244,17 +245,15 @@ export default function Home() {
                 key={index}
                 className="group bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-orange-500 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:-translate-y-2"
               >
-                <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {service.icon}
-                </div>
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-orange-500 transition-colors">
-                  {service.title}
-                </h3>
-                <p className="text-gray-400 group-hover:text-gray-300 transition-colors">
-                  {service.description}
-                </p>
-              </div>
-            ))}
+                {service.image ? (
+  <img
+    src={service.image}
+    alt={service.title}
+    className="w-full h-32 object-cover rounded-lg"
+  />
+) : (
+  service.icon
+)}
           </div>
         </div>
       </section>
