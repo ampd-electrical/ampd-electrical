@@ -244,7 +244,8 @@ export default function Home() {
               <div
                 key={index}
                 className="group bg-gradient-to-br from-gray-900 to-black border border-gray-800 rounded-xl p-8 hover:border-orange-500 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/20 hover:-translate-y-2"
-              >
+              > 
+                <div className="text-5xl mb-4">
                 {service.image ? (
   <img
     src={service.image}
